@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: fb03c1cc4333b47da8e73e47dfe15148
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - Myriad Pro
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 244371c2d8af743d6bbc82ae5b0d7cdd, type: 3}
+  - {fileID: 12800000, guid: 1a90f8ff73f804911bc2a5db71a690d4, type: 3}
+  - {fileID: 12800000, guid: 672a97741a37f47468e58f854c40e7f4, type: 3}
+  - {fileID: 12800000, guid: 58d34548f811147219c7cd789d389b2d, type: 3}
+  - {fileID: 12800000, guid: 12a241708ac714d1eb536b5062f7c8bd, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
