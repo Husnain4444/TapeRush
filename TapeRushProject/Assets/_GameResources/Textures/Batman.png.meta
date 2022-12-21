@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: 4f884ed5df8dfe14baf80c6f1452b7ed
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6574236072460176045
+    second: Batman_0
+  - first:
+      213: -3217813277904024509
+    second: Batman_1
+  - first:
+      213: 1215471068303674118
+    second: Batman_2
+  - first:
+      213: 3651526955583314304
+    second: Batman_3
+  - first:
+      213: -4824797753124713991
+    second: Batman_4
+  - first:
+      213: 4739327767319033229
+    second: Batman_5
+  - first:
+      213: -969088790822436809
+    second: Batman_6
+  - first:
+      213: -7759944694297536169
+    second: Batman_7
+  - first:
+      213: 5287713260490126855
+    second: Batman_8
+  - first:
+      213: -8505170036800536431
+    second: Batman_9
+  - first:
+      213: 1654788996580435651
+    second: Batman_10
+  - first:
+      213: 3330060406536449812
+    second: Batman_11
+  - first:
+      213: -5176934420649087707
+    second: Batman_12
+  - first:
+      213: 6085425993374687677
+    second: Batman_13
+  - first:
+      213: -5925860741660314151
+    second: Batman_14
+  - first:
+      213: -4304570159689309421
+    second: Batman_15
+  - first:
+      213: 2853799977263003347
+    second: Batman_16
+  - first:
+      213: 4568624521628700242
+    second: Batman_17
+  - first:
+      213: 5327784381882562905
+    second: Batman_18
+  - first:
+      213: -7339943211836225753
+    second: Batman_19
+  - first:
+      213: 1452189162527628421
+    second: Batman_20
+  - first:
+      213: -3675929611278272639
+    second: Batman_21
+  - first:
+      213: 5726530660129628915
+    second: Batman_22
+  - first:
+      213: -6026524724047866031
+    second: Batman_23
+  - first:
+      213: 38264555473213620
+    second: Batman_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Batman_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daa4c8840e06c3b50800000000000000
+      internalID: 6574236072460176045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34ccef85fd70853d0800000000000000
+      internalID: -3217813277904024509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60b410d2f783ed010800000000000000
+      internalID: 1215471068303674118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0899e436b64dca230800000000000000
+      internalID: 3651526955583314304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f906e3a100ea0db0800000000000000
+      internalID: -4824797753124713991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d85323d8e7975c140800000000000000
+      internalID: 4739327767319033229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 730473311ea1d82f0800000000000000
+      internalID: -969088790822436809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 759d7bb1a632f4490800000000000000
+      internalID: -7759944694297536169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 706f2a5e13bb16940800000000000000
+      internalID: 5287713260490126855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_9
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1904532f9e097f980800000000000000
+      internalID: -8505170036800536431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3c6e66f23ddf6f610800000000000000
+      internalID: 1654788996580435651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fa23cdb40c63e20800000000000000
+      internalID: 3330060406536449812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_12
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52de7bfa295d728b0800000000000000
+      internalID: -5176934420649087707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_13
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db1e602f2b6c37450800000000000000
+      internalID: 6085425993374687677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_14
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d577e05d0d13cda0800000000000000
+      internalID: -5925860741660314151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313e8f01f381344c0800000000000000
+      internalID: -4304570159689309421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d677c095fbba9720800000000000000
+      internalID: 2853799977263003347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_17
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e41dbfbc3076f30800000000000000
+      internalID: 4568624521628700242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 959fbf1eaa710f940800000000000000
+      internalID: 5327784381882562905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_19
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72746fa9988432a90800000000000000
+      internalID: -7339943211836225753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58c912b6956372410800000000000000
+      internalID: 1452189162527628421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1873b649e797cfcc0800000000000000
+      internalID: -3675929611278272639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f2e8608b49b87f40800000000000000
+      internalID: 5726530660129628915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 157940181bb7d5ca0800000000000000
+      internalID: -6026524724047866031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Batman_24
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b818741961f78000800000000000000
+      internalID: 38264555473213620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

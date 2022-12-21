@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: cc83b7274694a0b40bafba8dff4937e9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -431999736804752776
+    second: Deadpool_0
+  - first:
+      213: 7182522837649268821
+    second: Deadpool_1
+  - first:
+      213: 2656349545546384871
+    second: Deadpool_2
+  - first:
+      213: 3224245682463454345
+    second: Deadpool_3
+  - first:
+      213: -2286451929249926071
+    second: Deadpool_4
+  - first:
+      213: 3670186509452283421
+    second: Deadpool_5
+  - first:
+      213: 8385004582098161315
+    second: Deadpool_6
+  - first:
+      213: -6291017616483364447
+    second: Deadpool_7
+  - first:
+      213: 2436174234671654313
+    second: Deadpool_8
+  - first:
+      213: -2929570334921176155
+    second: Deadpool_9
+  - first:
+      213: -2754878709413740398
+    second: Deadpool_10
+  - first:
+      213: 2171186301760825392
+    second: Deadpool_11
+  - first:
+      213: 686769003005316855
+    second: Deadpool_12
+  - first:
+      213: -8831281536217375566
+    second: Deadpool_13
+  - first:
+      213: -2405546339485807395
+    second: Deadpool_14
+  - first:
+      213: -8713347301340114118
+    second: Deadpool_15
+  - first:
+      213: 3055448098204728452
+    second: Deadpool_16
+  - first:
+      213: 7836326434755700360
+    second: Deadpool_17
+  - first:
+      213: -8797326240124218527
+    second: Deadpool_18
+  - first:
+      213: 7059043663288659487
+    second: Deadpool_19
+  - first:
+      213: -957837692409295540
+    second: Deadpool_20
+  - first:
+      213: -1344361734341727641
+    second: Deadpool_21
+  - first:
+      213: 1996251636704713148
+    second: Deadpool_22
+  - first:
+      213: 9141872499390856383
+    second: Deadpool_23
+  - first:
+      213: 6868006395200754760
+    second: Deadpool_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 512
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Deadpool_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872c0b8378a310af0800000000000000
+      internalID: -431999736804752776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_1
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550273957727da360800000000000000
+      internalID: 7182522837649268821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_2
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e5009576df3dd420800000000000000
+      internalID: 2656349545546384871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_3
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98432db8d52debc20800000000000000
+      internalID: 3224245682463454345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_4
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 604.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9443d01a514e440e0800000000000000
+      internalID: -2286451929249926071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1e85535f2f1fe230800000000000000
+      internalID: 3670186509452283421
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_6
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aecbf3ed358d5470800000000000000
+      internalID: 8385004582098161315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_7
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a1d8cd1fc0d1b8a0800000000000000
+      internalID: -6291017616483364447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a5209c1f870fc120800000000000000
+      internalID: 2436174234671654313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_9
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 453.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ab408a4d431857d0800000000000000
+      internalID: -2929570334921176155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2908b16e864b4c9d0800000000000000
+      internalID: -2754878709413740398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_11
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 038e5a1207a912e10800000000000000
+      internalID: 2171186301760825392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_12
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe81e205c4e78900800000000000000
+      internalID: 686769003005316855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_13
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bc1c42ab3cf07580800000000000000
+      internalID: -8831281536217375566
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_14
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 302.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc05307958cd9ed0800000000000000
+      internalID: -2405546339485807395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3393037bc8f31780800000000000000
+      internalID: -8713347301340114118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_16
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48cb22b5bd1276a20800000000000000
+      internalID: 3055448098204728452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_17
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 886ed9faf5930cc60800000000000000
+      internalID: 7836326434755700360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_18
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1635c24156e99e580800000000000000
+      internalID: -8797326240124218527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_19
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 151.8
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1eea44bfc2c6f160800000000000000
+      internalID: 7059043663288659487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4dc67f81b315b2f0800000000000000
+      internalID: -957837692409295540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_21
+      rect:
+        serializedVersion: 2
+        x: 151
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76aeee6102ed75de0800000000000000
+      internalID: -1344361734341727641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_22
+      rect:
+        serializedVersion: 2
+        x: 302
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb99318794c14bb10800000000000000
+      internalID: 1996251636704713148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_23
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcba1c3a947ede70800000000000000
+      internalID: 9141872499390856383
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Deadpool_24
+      rect:
+        serializedVersion: 2
+        x: 604
+        y: 0.80000305
+        width: 151.2
+        height: 151.2
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8445d0d9d6f005f50800000000000000
+      internalID: 6868006395200754760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
