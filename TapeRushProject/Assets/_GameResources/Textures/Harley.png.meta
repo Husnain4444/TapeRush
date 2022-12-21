@@ -1,0 +1,732 @@
+fileFormatVersion: 2
+guid: 1b1cf381686414d72a647ca0d97de3dc
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6497510702164753465
+    second: Harley_0
+  - first:
+      213: 1331646846368470818
+    second: Harley_1
+  - first:
+      213: 5549344184942738441
+    second: Harley_2
+  - first:
+      213: 1691120694229438795
+    second: Harley_3
+  - first:
+      213: -8646965709067748148
+    second: Harley_4
+  - first:
+      213: 3012111531738536731
+    second: Harley_5
+  - first:
+      213: 6399542583338813132
+    second: Harley_6
+  - first:
+      213: -5126732856207779440
+    second: Harley_7
+  - first:
+      213: -2177372395131918261
+    second: Harley_8
+  - first:
+      213: 9162629046515700337
+    second: Harley_9
+  - first:
+      213: -1929835428202093513
+    second: Harley_10
+  - first:
+      213: 7325708431122318923
+    second: Harley_11
+  - first:
+      213: 6795793578272947232
+    second: Harley_12
+  - first:
+      213: 713647707883369640
+    second: Harley_13
+  - first:
+      213: -7619880801809462638
+    second: Harley_14
+  - first:
+      213: 7707177464938434756
+    second: Harley_15
+  - first:
+      213: 7347981628769867739
+    second: Harley_16
+  - first:
+      213: 319678101089987314
+    second: Harley_17
+  - first:
+      213: -4771606493008460647
+    second: Harley_18
+  - first:
+      213: 9213844348132298318
+    second: Harley_19
+  - first:
+      213: -7711795200210996104
+    second: Harley_20
+  - first:
+      213: -3871301615973932185
+    second: Harley_21
+  - first:
+      213: 2230600616389238863
+    second: Harley_22
+  - first:
+      213: -4256407414097384928
+    second: Harley_23
+  - first:
+      213: 7627214242463410407
+    second: Harley_24
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 0
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Harley_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1221.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c3cb21117434d5a0800000000000000
+      internalID: -6497510702164753465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_1
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1221.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 227df0c50c5fa7210800000000000000
+      internalID: 1331646846368470818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_2
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1221.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90c34ef622b330d40800000000000000
+      internalID: 5549344184942738441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_3
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1221.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b419bdbbf41187710800000000000000
+      internalID: 1691120694229438795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_4
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1221.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccc780e408ecff780800000000000000
+      internalID: -8646965709067748148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 916.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1b1221ba7b2dc920800000000000000
+      internalID: 3012111531738536731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_6
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 916.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc645e4c21ebfc850800000000000000
+      internalID: 6399542583338813132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_7
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 916.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 099596f31af2ad8b0800000000000000
+      internalID: -5126732856207779440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_8
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 916.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b48ab64c75b68c1e0800000000000000
+      internalID: -2177372395131918261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_9
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 916.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1729e367292382f70800000000000000
+      internalID: 9162629046515700337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 611.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 734ec0b17e8d735e0800000000000000
+      internalID: -1929835428202093513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_11
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 611.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b46412d31052aa560800000000000000
+      internalID: 7325708431122318923
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_12
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 611.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02cf6d7f0428f4e50800000000000000
+      internalID: 6795793578272947232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_13
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 611.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a4f82b2fc267e900800000000000000
+      internalID: 713647707883369640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_14
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 611.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29a045958ceb04690800000000000000
+      internalID: -7619880801809462638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 306.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c01d8ae11565fa60800000000000000
+      internalID: 7707177464938434756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_16
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 306.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd79cee2c5649f560800000000000000
+      internalID: 7347981628769867739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_17
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 306.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2faa0f90a89bf6400800000000000000
+      internalID: 319678101089987314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_18
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 306.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9948848fc29d7cdb0800000000000000
+      internalID: -4771606493008460647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_19
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 306.6
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4e8a2a1e962edf70800000000000000
+      internalID: 9213844348132298318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.6000061
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8747cdecf133af490800000000000000
+      internalID: -7711795200210996104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_21
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1.6000061
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7636a79f0bf564ac0800000000000000
+      internalID: -3871301615973932185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_22
+      rect:
+        serializedVersion: 2
+        x: 610
+        y: 1.6000061
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f40e5af317fa4fe10800000000000000
+      internalID: 2230600616389238863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_23
+      rect:
+        serializedVersion: 2
+        x: 915
+        y: 1.6000061
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02ae26f12043ee4c0800000000000000
+      internalID: -4256407414097384928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Harley_24
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1.6000061
+        width: 305.4
+        height: 305.4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e8e4db51fe49d960800000000000000
+      internalID: 7627214242463410407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 549408021b6974ef2ac5b87789fcc05f
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
