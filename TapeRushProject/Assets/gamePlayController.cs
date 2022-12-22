@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using Cinemachine;
 using PathCreation;
 
-public class gamePlayController : MonoBehaviour 
+public class gamePlayController : MonoBehaviour
 {
     public Text levelNoText;
     public Text gameOverLevelNoTxt;
@@ -13,7 +13,7 @@ public class gamePlayController : MonoBehaviour
     public Button pause;
     public Button play;
     [System.Serializable]
-    public class LevelInfo 
+    public class LevelInfo
     {
         //public static LevelInfo instance = null;
         public int levelNo;
@@ -43,12 +43,13 @@ public class gamePlayController : MonoBehaviour
     public CinemachineVirtualCamera cvcam2;
     void Start()
     {
-        
+
         if (PlayerPrefs.GetInt("Level") == 0 || PlayerPrefs.GetInt("Level") > 15)
         {
             PlayerPrefs.SetInt("Level", 1);
         }
-        levelNo = PlayerPrefs.GetInt("Level");
+        // levelNo = PlayerPrefs.GetInt("Level");
+        levelNo = 1;
         InitiateLevel();
         levelNoText.text = "Level " + levelNo.ToString();
         gameOverLevelNoTxt.text = "Level " + levelNo.ToString();
@@ -58,22 +59,22 @@ public class gamePlayController : MonoBehaviour
     }
     public void InitiateLevel()
     {
-        
-        for(int i=0; i<levels.Count; i++)
+
+        for (int i = 0; i < levels.Count; i++)
         {
             if (i + 1 == levelNo)
             {
-                levels[i ].level.SetActive(true);
+                levels[i].level.SetActive(true);
                 //levelNo = i - 1;
             }
             else
             {
-                levels[i ].level.SetActive(false);
+                levels[i].level.SetActive(false);
             }
         }
         Player.GetComponent<PathFollower>().pathCreator = levels[levelNo - 1].path;
-        Player.transform.position = levels[levelNo-1].LevelStartPos.position;
-        cvcam.Follow = levels[levelNo-1].finishLine.transform;
+        Player.transform.position = levels[levelNo - 1].LevelStartPos.position;
+        cvcam.Follow = levels[levelNo - 1].finishLine.transform;
         cvcam2.Follow = levels[levelNo - 1].endGameObject.transform;
         cvcam2.LookAt = levels[levelNo - 1].endGameObject.transform;
         borders.borders[0] = levels[levelNo - 1].borderLeft;
@@ -111,6 +112,6 @@ public class gamePlayController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

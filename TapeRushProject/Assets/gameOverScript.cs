@@ -52,7 +52,7 @@ public class gameOverScript : MonoBehaviour
         {
             GameOver();
         }
-        
+
     }
     public void GameWin()
     {
@@ -74,19 +74,19 @@ public class gameOverScript : MonoBehaviour
     {
         //if (isOver)
         //{
-            
+
         //    return;
         //}
         //isOver = true;
-            PlayerPrefs.SetFloat("PlayerZ", MainPlayer.transform.position.z);
-            //UIManager.instance.OnGameOver();
-            //MainPlayer.GetComponentInChildren<Animator>().SetBool("secondChance", true);
-            gameplay.SetActive(false);
-            gameOver.SetActive(true);
-            swipeDetector.SetActive(false);
-            player.GetComponent<Rigidbody>().isKinematic = true;
-            player.GetComponent<Core.Movement.MovementController>().enabled = false;
-            MainPlayer.GetComponent<PathFollower>().enabled = false;
+        PlayerPrefs.SetFloat("PlayerZ", MainPlayer.transform.position.z);
+        //UIManager.instance.OnGameOver();
+        //MainPlayer.GetComponentInChildren<Animator>().SetBool("secondChance", true);
+        gameplay.SetActive(false);
+        gameOver.SetActive(true);
+        swipeDetector.SetActive(false);
+        player.GetComponent<Rigidbody>().isKinematic = true;
+        player.GetComponent<Core.Movement.MovementController>().enabled = false;
+        MainPlayer.GetComponent<PathFollower>().enabled = false;
 
     }
     public void simpleGameOver()
@@ -104,7 +104,7 @@ public class gameOverScript : MonoBehaviour
         PlayerPrefs.SetInt("KeyConsumed", 0);
         IronSourceScript.instance.InterstitialShow();
 
-        
+
         if (PlayerPrefs.GetInt("TapeSkin") == 1)
         {
 
@@ -116,7 +116,7 @@ public class gameOverScript : MonoBehaviour
             StartCoroutine("delay");
 
         }
-        
+
     }
     public void ClaimNewSkinBtn()
     {
@@ -196,7 +196,7 @@ public class gameOverScript : MonoBehaviour
     }
     public void Restart()
     {
-        IronSourceScript.instance.InterstitialShow();
+        // IronSourceScript.instance.InterstitialShow();
         PlayerPrefs.SetInt("KeyConsumed", 1);
         SceneManager.LoadScene(0);
     }

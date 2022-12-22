@@ -20,7 +20,7 @@ public class newHurdleCollider : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        num = Random.Range(1, 10);
+        num = Random.Range(1, 5);
         mulNum = Random.Range(1, 3);
         sumNum = Random.Range(1, 5);
         string tt;
@@ -57,13 +57,13 @@ public class newHurdleCollider : MonoBehaviour
             if (sign == '*')
             {
                 int tapecount = PlayerPrefs.GetInt("TapeCount");
-                mulNum = (tapecount * mulNum)-tapecount;
+                mulNum = (tapecount * mulNum) - tapecount;
                 bps.GetComponent<BalancePlayerState>().AddTapes(mulNum);
             }
             if (sign == '/')
             {
                 int tapecount = PlayerPrefs.GetInt("TapeCount");
-                num = tapecount-(tapecount / num) ;
+                num = tapecount - (tapecount / num);
                 bps.GetComponent<BalancePlayerState>().SubTapes(num);
             }
             this.gameObject.SetActive(false);
@@ -72,6 +72,6 @@ public class newHurdleCollider : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

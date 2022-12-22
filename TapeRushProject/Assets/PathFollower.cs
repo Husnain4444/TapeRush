@@ -18,7 +18,19 @@ public class PathFollower : MonoBehaviour
     float distanceTraveled;
     void Start()
     {
+        // if (PlayerPrefs.GetInt("mode") == 1)
+        // { speed1 = 55; }
+        // else if (PlayerPrefs.GetInt("mode") == 2)
+        // { speed1 = 70; }
+        // else if (PlayerPrefs.GetInt("mode") == 3)
+        // { speed1 = 80; }
 
+        // if (PlayerPrefs.GetInt("mapNum") == 0)
+        // { settingsScript.instance.mapParent.transform.GetChild(0).gameObject.SetActive(true); }
+        // else if (PlayerPrefs.GetInt("mapNum") == 1)
+        // { settingsScript.instance.mapParent.transform.GetChild(0).gameObject.SetActive(true); }
+        // else if (PlayerPrefs.GetInt("mapNum") == 2)
+        // { settingsScript.instance.mapParent.transform.GetChild(0).gameObject.SetActive(true); }
     }
 
     void Update()
