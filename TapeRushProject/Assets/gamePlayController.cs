@@ -4,9 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using Cinemachine;
 using PathCreation;
+using System.Threading.Tasks;
 
 public class gamePlayController : MonoBehaviour
 {
+    public static gamePlayController instance;
+    public Color[] cameraColor;
+    public Color[] fogColor;
+    public Color[] gateColor;
+    public GameObject gateFinishLine;
+    public GameObject gameEndCharacter;
     public Text levelNoText;
     public Text gameOverLevelNoTxt;
     public Text gameWinLevelNoTxt;
@@ -40,22 +47,29 @@ public class gamePlayController : MonoBehaviour
     //public 
     public int levelNo;
     public CinemachineVirtualCamera cvcam;
-    public CinemachineVirtualCamera cvcam2;
-    void Start()
+    public CinemachineVirtualCamera cvcam2, cvcam4;
+    async void Start()
     {
-
-        if (PlayerPrefs.GetInt("Level") == 0 || PlayerPrefs.GetInt("Level") > 15)
+        Application.targetFrameRate = 60;
+        if (instance == null)
+        { instance = this; }
+        if (PlayerPrefs.GetInt("Level") == 0 || PlayerPrefs.GetInt("Level") > 11)
         {
             PlayerPrefs.SetInt("Level", 1);
         }
-        // levelNo = PlayerPrefs.GetInt("Level");
-        levelNo = 1;
+        levelNo = PlayerPrefs.GetInt("Level");
+        // levelNo = 7;
         InitiateLevel();
         levelNoText.text = "Level " + levelNo.ToString();
         gameOverLevelNoTxt.text = "Level " + levelNo.ToString();
         gameWinLevelNoTxt.text = "Level " + levelNo.ToString();
         levelNoText.gameObject.SetActive(true);
 
+        await Task.Delay(2000);
+        Player.GetComponent<settingsScript>().enabled = false;
+        // gameEndCharacter.transform.position = new Vector3(gameEndCharacter.transform.position.x, GameObject.Find("Score Screen (4)").gameObject.transform.position.y, gameEndCharacter.transform.position.z);
+        gameEndCharacter.transform.position = GameObject.Find("Score Screen (4)").gameObject.transform.position;
+        gameEndCharacter.transform.position = new Vector3(GameObject.Find("Score Screen (4)").gameObject.transform.position.x, 0.2f, GameObject.Find("Score Screen (4)").gameObject.transform.position.z + 50);
     }
     public void InitiateLevel()
     {
@@ -92,6 +106,7 @@ public class gamePlayController : MonoBehaviour
         {
             PlayerPrefs.SetInt("TapeSkin", 0);
         }
+
     }
 
 

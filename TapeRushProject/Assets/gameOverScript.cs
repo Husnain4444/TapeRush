@@ -102,7 +102,7 @@ public class gameOverScript : MonoBehaviour
     {
         coinAnim.AnimateCoins();
         PlayerPrefs.SetInt("KeyConsumed", 0);
-        IronSourceScript.instance.InterstitialShow();
+        // IronSourceScript.instance.InterstitialShow();
 
 
         if (PlayerPrefs.GetInt("TapeSkin") == 1)

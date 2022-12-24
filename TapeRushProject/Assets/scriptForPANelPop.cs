@@ -11,12 +11,10 @@ public class scriptForPANelPop : MonoBehaviour
 
     void Start()
     {
-        //  if (!PlayerPrefs.HasKey("num"))
-        // {
-        //     PlayerPrefs.SetInt("num",1);
-
-
-        // }
+        if (!PlayerPrefs.HasKey("num"))
+        {
+            PlayerPrefs.SetInt("num", 1);
+        }
         checkPlayerPref();
 
 
@@ -31,16 +29,11 @@ public class scriptForPANelPop : MonoBehaviour
     }
     void checkPlayerPref()
     {
-        // if(PlayerPrefs.GetInt("num")==1){
-
-        // PanelForEasyHard.SetActive(true);
-        // PlayerPrefs.SetInt("num",2);
-        // Debug.Log(PlayerPrefs.GetInt("num")+"fffffffffffff");
-        // }
-        if (check1stTime == 0)
+        if (PlayerPrefs.GetInt("num") == 1)
         {
             PanelForEasyHard.SetActive(true);
-            check1stTime++;
+            PlayerPrefs.SetInt("num", 2);
+            // Debug.Log(PlayerPrefs.GetInt("num")+"fffffffffffff");
         }
     }
 }

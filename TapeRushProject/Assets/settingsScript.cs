@@ -24,6 +24,17 @@ public class settingsScript : MonoBehaviour
         mapNum = PlayerPrefs.GetInt("mapNum");
         int mode = PlayerPrefs.GetInt("mode", 1);
         DisableMap();
+        Camera.main.GetComponent<Camera>().backgroundColor = gamePlayController.instance.cameraColor[mapNum];
+        gamePlayController.instance.gateFinishLine.GetComponent<MeshRenderer>().material.color = gamePlayController.instance.gateColor[mapNum];// colour of gate crossing at last of level
+        if (mapNum == 0)
+        {
+            RenderSettings.fog = false;
+        }
+        else
+        {
+            RenderSettings.fog = true;
+            RenderSettings.fogColor = gamePlayController.instance.fogColor[mapNum];
+        }
         settingMapParent.transform.GetChild(mapNum).gameObject.SetActive(true);
         mapParent.transform.GetChild(mapNum).gameObject.SetActive(true);
         foreach (GameObject gb in modes)
@@ -61,7 +72,7 @@ public class settingsScript : MonoBehaviour
     }
     public void HardSetting()
     {
-        player.GetComponent<PathFollower>().speed1 = sped + 25;
+        player.GetComponent<PathFollower>().speed1 = sped + 35;
         SetEveryTapeRotation(-13f);
         PlayerPrefs.SetInt("mode", 3);
     }
@@ -149,6 +160,20 @@ public class settingsScript : MonoBehaviour
         {
             mapNum = settingMapParent.transform.childCount - 1;
         }
+
+        Camera.main.GetComponent<Camera>().backgroundColor = gamePlayController.instance.cameraColor[mapNum];
+
+        gamePlayController.instance.gateFinishLine.GetComponent<MeshRenderer>().material.color = gamePlayController.instance.gateColor[mapNum];// colour of gate crossing at last of level
+
+        if (mapNum == 0)
+        {
+            RenderSettings.fog = false;
+        }
+        else
+        {
+            RenderSettings.fog = true;
+            RenderSettings.fogColor = gamePlayController.instance.fogColor[mapNum];
+        }
         settingMapParent.transform.GetChild(mapNum).gameObject.SetActive(true);
         mapParent.transform.GetChild(mapNum).gameObject.SetActive(true);
         PlayerPrefs.SetInt("mapNum", mapNum);
@@ -161,6 +186,19 @@ public class settingsScript : MonoBehaviour
         if (mapNum < 0)
         {
             mapNum = 0;
+        }
+        Camera.main.GetComponent<Camera>().backgroundColor = gamePlayController.instance.cameraColor[mapNum];
+
+        gamePlayController.instance.gateFinishLine.GetComponent<MeshRenderer>().material.color = gamePlayController.instance.gateColor[mapNum];// colour of gate crossing at last of level
+
+        if (mapNum == 0)
+        {
+            RenderSettings.fog = false;
+        }
+        else
+        {
+            RenderSettings.fog = true;
+            RenderSettings.fogColor = gamePlayController.instance.fogColor[mapNum];
         }
         settingMapParent.transform.GetChild(mapNum).gameObject.SetActive(true);
         mapParent.transform.GetChild(mapNum).gameObject.SetActive(true);

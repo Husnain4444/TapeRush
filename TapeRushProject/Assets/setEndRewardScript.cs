@@ -10,7 +10,7 @@ public class setEndRewardScript : MonoBehaviour
     void Start()
     {
 
-        hs= PlayerPrefs.GetInt("highscore", 0);
+        hs = PlayerPrefs.GetInt("highscore", 0);
         PlayerPrefs.SetInt("Reward", 0);
     }
 
@@ -18,28 +18,28 @@ public class setEndRewardScript : MonoBehaviour
     {
         if (other.tag == "FirstTape")
         {
-            foreach(Transform ps in this.transform)
+            foreach (Transform ps in this.transform)
             {
                 if (ps.GetComponent<ParticleSystem>())
                 {
                     ps.GetComponent<ParticleSystem>().Play();
                 }
-                
+
             }
-            int i=int.Parse(this.GetComponentInChildren<TextMeshPro>().text);
+            int i = int.Parse(this.GetComponentInChildren<TextMeshPro>().text);
             PlayerPrefs.SetInt("Reward", i);
-            int hs= PlayerPrefs.GetInt("highscore");
+            int hs = PlayerPrefs.GetInt("highscore");
             if (hs < i / 5)
             {
                 PlayerPrefs.SetInt("highscore", i / 5);
             }
-            
+
             //PlayerPrefs.SetInt("highscore", i/5);
         }
     }
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 }

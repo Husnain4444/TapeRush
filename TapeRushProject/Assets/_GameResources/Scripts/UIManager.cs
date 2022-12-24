@@ -72,7 +72,7 @@ public class UIManager : MonoBehaviour
         {
             PanelAnimation();
         }
-        IronSourceScript.instance.InterstitialShow();
+        // IronSourceScript.instance.InterstitialShow();
 
     }
     public void PanelAnimation()
@@ -151,7 +151,6 @@ public class UIManager : MonoBehaviour
     }
     public void rewardedAd()
     {
-
         Debug.Log("Exit");
         myTween.Pause();
         StopAllCoroutines();

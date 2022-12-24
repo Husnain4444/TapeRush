@@ -2,8 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Cinemachine;
+using DG.Tweening;
 public class GenerateEndTapesDynamically : MonoBehaviour
 {
+    public static GenerateEndTapesDynamically instance;
     public GameObject Player;
     public GameObject[] tapes;
     public List<GameObject> instantiatedTapes;
@@ -19,13 +21,18 @@ public class GenerateEndTapesDynamically : MonoBehaviour
     public Transform tmp;
     private bool doneCam = false;
 
+
     // Start is called before the first frame update
     void Start()
     {
+        if (instance == null)
+        {
+            instance = this;
+        }
         doneCam = true;
         highestScore.SetActive(false);
         highestScore.transform.position = HighestScorePos.transform.position;
-        sizeY = this.transform.position.y;
+        sizeY = this.transform.position.z;
         tapeCount = PlayerPrefs.GetInt("TapeCount");
         InstantiateTapes();
 
@@ -33,12 +40,12 @@ public class GenerateEndTapesDynamically : MonoBehaviour
 
     public void InstantiateTapes()
     {
-        highestScore.transform.position = new Vector3(highestScore.transform.position.x, highestScore.transform.position.y + (PlayerPrefs.GetInt("highscore") * (-8f)), highestScore.transform.position.z);
+        highestScore.transform.position = new Vector3(highestScore.transform.position.x, highestScore.transform.position.y, highestScore.transform.position.z + (PlayerPrefs.GetInt("highscore") * (5f)));
         highestScore.SetActive(true);
 
         //this.transform.rotation= Quaternion.Euler(new Vector3(-20, 0, 0));
         tapeCount = PlayerPrefs.GetInt("TapeCount");
-        sizeY = sizeY + ((-8 * tapeCount) - 6f);
+        sizeY = sizeY + ((8 * tapeCount) + 6f);
 
         int x = Random.Range(0, 6);
         GameObject gb = Instantiate(tapes[x]);
@@ -61,7 +68,7 @@ public class GenerateEndTapesDynamically : MonoBehaviour
             //cvcam.transform.rotation = Quaternion.Slerp(cvcam.transform.rotation, Quaternion.Euler(new Vector3(5, 180, 0)), 1f);
             int x2 = Random.Range(0, 6);
             Transform t = instantiatedTapes[i - 1].transform;
-            t.position = new Vector3(t.position.x, t.position.y + 7f, t.position.z);
+            t.position = new Vector3(t.position.x, t.position.y, t.position.z - 7f);
             GameObject gb2 = Instantiate(tapes[x2]);
             gb2.transform.position = t.transform.position;
             foreach (Transform t1 in gb2.transform)
@@ -72,13 +79,14 @@ public class GenerateEndTapesDynamically : MonoBehaviour
             gb2.transform.SetParent(this.transform);
             instantiatedTapes.Add(gb2);
         }
-        this.GetComponent<Rigidbody>().useGravity = true;
+        StartCoroutine(MoveTowardsHighestScore());
+        // this.GetComponent<Rigidbody>().useGravity = true;
         PlayerPrefs.SetInt("enable", 1);
     }
     // Update is called once per frame
     void Update()
     {
-        if (this.transform.position.y <= sizeY)
+        if (this.transform.position.z >= sizeY)
         {
             this.GetComponent<Rigidbody>().isKinematic = true;
             Player.SetActive(false);
@@ -99,9 +107,10 @@ public class GenerateEndTapesDynamically : MonoBehaviour
             else
             {
                 int abc = PlayerPrefs.GetInt("Reward") / 5;
-                highestScore.transform.position = new Vector3(highestScore.transform.position.x, instantiatedTapes[0].transform.position.y, highestScore.transform.position.z);
+                highestScore.transform.position = new Vector3(highestScore.transform.position.x, highestScore.transform.position.y, instantiatedTapes[0].transform.position.z);
                 //set highest score panel at this position
-                StartCoroutine("delay");
+                // StartCoroutine("delay");
+                StartCoroutine("delayForHighestScoreCameraMovement");
             }
 
 
@@ -120,19 +129,20 @@ public class GenerateEndTapesDynamically : MonoBehaviour
         PlayerPrefs.SetInt("enable", 0);
         yield return new WaitForSeconds(3f);
 
-        tmp.position = new Vector3(highestScore.transform.position.x, instantiatedTapes[0].transform.position.y, highestScore.transform.position.z);
+        tmp.position = new Vector3(highestScore.transform.position.x, highestScore.transform.position.y, instantiatedTapes[0].transform.position.z);
         tmp.rotation = highestScore.transform.rotation;
         cvcam.Follow = tmp;
         cvcam.LookAt = null;
-        yield return new WaitForSeconds(3f);
-        StartCoroutine("delay");
+        gamePlayController.instance.cvcam4.Priority = 200;
+        yield return new WaitForSeconds(2f);
+        forBoxOpening.instance.number = 9;
+        yield return new WaitForSeconds(10f);
+        // StartCoroutine("delay");
         //this.transform.position = new Vector3(this.transform.position.x, temp.transform.position.y, this.transform.position.z);
     }
-    IEnumerator delay()
+    public IEnumerator delay()
     {
         yield return new WaitForSeconds(2f);
-
-
 
         //cvcam.LookAt = null;
         yield return new WaitForSeconds(1f);
@@ -142,5 +152,11 @@ public class GenerateEndTapesDynamically : MonoBehaviour
         //Quaternion.Slerp(cvcam.transform.rotation, Quaternion.Euler( new Vector3(5, 180, 0)),1f);
         yield return new WaitForSeconds(1.3f);
         gameOver.GameWin();
+    }
+
+    IEnumerator MoveTowardsHighestScore()
+    {
+        yield return new WaitForSeconds(0);
+        this.transform.DOMoveZ(sizeY, 6);
     }
 }
